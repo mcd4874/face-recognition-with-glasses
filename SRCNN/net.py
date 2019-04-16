@@ -17,9 +17,9 @@ labels = tf.placeholder(tf.float32, [None, size_label, size_label, 1], name='lab
 learning_rate = 0.01
 
 # num_epoch = 15000
-num_epoch = 4
+num_epoch = 10
 
-batch_size = 128
+batch_size = 64
 # num_training = 21712
 # num_testing = 1113
 train_path = os.path.join('./{}'.format('checkpoint'), "TrainLabel.h5")
